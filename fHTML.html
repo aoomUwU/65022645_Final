@@ -1,14 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="fCSS.css">
-    <title></title>
+    <title>JavaScriptFinal</title>
 </head>
 <body>
-    <a>9</a>
+    <section>
+        <h1 style="text-align: center;">Insert data</h1>
+        <label for="name" >ชื่อ</label><br>
+        <input type="text" id="name" class="na"><br>
+        <label for="surname">นามสกุล</label><br>
+        <input type="text" id="surname" class="su"><br>
+        <label for="grender">เพศ</label><br>
+        <select id="grender" class="gr">
+            <option value="">ไม่ระบุ</option>
+            <option value="M">ชาย</option>
+            <option value="F">หญิง</option>
+        </select><br>
+        <label for="birth">วันเกิด</label><br>
+        <input type="date" id="birth" class="bi"><br>
+        <br>
+        <div type="button" onclick="submitForm()" class="bt">Add</div>
+    </section>
+    <table id="result">
+        <tr id="Htd">
+            <td>Name</td>
+            <td>Surname</td>
+            <td>Grender</td>
+            <td>Birth Date</td>
+        </tr>
+    </table>
     <script src="fJAVAS.js"></script>
 </body>
 </html>

@@ -1,5 +1,5 @@
 section{
-    background-color: aqua;
+    background-color: rgb(156, 145, 255);
     color: rgb(29, 0, 109);
     padding: 1em;
     width: 34%;
@@ -7,6 +7,7 @@ section{
     position: relative;
     left: 33%;
     margin-bottom: 10px;
+    font-weight: bold;
 }
 .na,.su,.gr,.bi{
     width: 84%;
@@ -30,3 +31,7 @@ table{
 table, td, th {
     border: 1px solid;
   }
+th{
+    background-color: rgb(197, 166, 255);
+    font-weight: bold;
+}
